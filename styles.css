@@ -1,1 +1,34 @@
 /* your code */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+}
+
+.stats-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+.stats-table th, .stats-table td {
+  padding: 12px 15px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.stats-table thead {
+  background-color: #011e29;
+  color: #ffffff;
+}
+
+.stats-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.stats-table tbody tr:hover {
+  background-color: #dceefc;
+  transition: 0.3s;
+}
